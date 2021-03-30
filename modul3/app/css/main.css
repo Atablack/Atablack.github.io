@@ -29,9 +29,9 @@ html, body, main{
 	font-size: 20px;
 }
 .text-container{
-	width: 40px;
+	width: 40%;
 	margin-left: 15%;
-	margin-top: 15px;
+	margin-top: 15%;
 }
 .first-line{
 	text-transform: uppercase;
