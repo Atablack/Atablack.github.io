@@ -1,0 +1,15 @@
+@media all and (min-width: 1150px){
+	.thumbnail:hover{
+		border: 2px solid;
+		background-color: #e4fdf9;
+	}
+	.text:hover{
+		border: 2px solid;
+		background-color: transparent;
+	}
+	.second-text:hover{
+	transform: rotate(3deg);
+	color: pink;
+	margin: 50px;
+	}
+}

@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body{
+	background-image: url(../img/img1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+.container{
+	display: flex;
+
+
+}
+.text{
+	font-size: 40px;
+	text-align: center;
+	color: white;
+}
+.text{
+	border: 0.5rem solid #30d5c8;
+	border-radius: 12px;
+	margin: 10px 560px;
+	padding: 5px;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,1);
+	transition: 0.3s ease-in;
+}
+.thumbnail{
+	height: 330px;
+	transition: 0.3s ease-in;
+}
+.second{
+	height: 200px;
+}
+.second-text{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
