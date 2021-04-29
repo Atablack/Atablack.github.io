@@ -5,7 +5,7 @@
 	}
 	.text:hover{
 		border: 2px solid;
-		background-color: transparent;
+		background-color: orange;
 	}
 	.second-text:hover{
 	transform: rotate(3deg);
