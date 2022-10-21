@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+	padding: ;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: ktk;
+	src:url(../fonts/ktk.ttf);
+	font-family: tsh;
+	src:url(../fonts/tsh.ttf);
+}
+
+body, main, html {
+	height: 100%;
+}
+
+.head-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffab;
+	height: 75px;
+}
+
+.header-text {
+	color: black;
+	font-family: ktk;
+}
+
+.text {
+	display: flex;
+	justify-content: right;
+	padding-right: 20px;
+}
+
+.main-container {
+	height: 250px;
+}
+
+.cet-link {
+	position: absolute;
+  	left: -80px;
+  	transition: 0.3s;
+  	padding: 15px;
+  	width: 100px;
+  	text-decoration: none;
+  	font-size: 20px;
+  	border-radius: 0 5px 5px 0;
+  	margin-top: 70px;
+  	color: white !important;
+}
+
+.cet-link:hover {
+	left: 0;
+}
+
+.all{
+	top: 20px;
+	background-color: #ffc38f;
+	/*background-color: #ffb5f0;*/
+}
+
+.sport {
+  	top: 90px;
+  	background-color:  #ffb5f0;
+  	/*background-color: #96ebcc;*/
+}
+
+.culture {
+  	top: 160px;
+  	background-color: #ffc38f;
+  	/*background-color: #96ebcc;*/
+}
+
+.art {
+  	top: 230px;
+  	background-color: #ffc38f;
+  	/*background-color: #96ebcc;*/
+}
+
+.nextweek {
+  	top: 300px;
+  	background-color: #ffc38f;
+  	/*background-color: #96ebcc;*/
+}
+
+.main-text {
+	display: flex;
+	justify-content: center;
+	padding-top: 150px;
+}
+
+.intro {
+	font-family: ktk; 
+}
+
+.back-color {
+	background-color: #C6F8DD;
+}
+
+.img-container {
+	display: flex;
+	justify-content: center;
+}
+
+.main-img {
+	padding-top: 160px;
+	width: 90%;
+	height: auto;
+}
+
+.text-container {
+	margin-top: 50px;
+	padding-left: 20%;
+	width: 80%;
+	font-size: 23px;
+}
+
+.contact-container {
+	padding-top: 20px;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+}
+
+.last-header{
+	color: black;
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 20px;
+	border: 2px solid black;
+	border-radius: 2rem;
+	margin-bottom: 30px;
+}
+
+.social-icons {
+  	display: flex;
+  	justify-content: center;
+  	list-style: none;
+  	margin-top: 1rem;
+  	margin-bottom: 1rem;
+  	padding-left: 0;
+}
+.social-icons>li {
+  	margin-left: 0.25rem;
+  	margin-right: 0.25rem;
+}
+.social-icons a {
+ 	position: relative;
+  	background-color: #C6F8DD;
+  	display: block;
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	user-select: none;
+  	transition: background-color .3s ease-in-out;
+  	width: 2.5rem;
+  	height: 2.5rem;
+  	border-radius: .25rem;
+}
+.social-icons a:hover {
+  	background-color: #e0e0e0;
+}
+.social-icons a::before {
+  	content: "";
+  	position: absolute;
+  	width: 1.2rem;
+  	height: 1.2rem;
+  	left: .65rem;
+  	top: .65rem;
+  	background: transparent no-repeat center center;
+  	background-size: 100% 100%;
+}
+.social-icons .social-icon-telegram::before {
+  	background-image: url(../img/telegram.png);
+}
+.social-icons .social-icon-whatsapp::before {
+  	background-image: url(../img/whatsapp.png);
+}
+.social-icons .social-icon-ig::before {
+  	background-image: url(../img/ig.png);
+}
