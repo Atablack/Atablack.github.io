@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, main, html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(179, 255, 229);
+}
+
+.aContainer {
+    
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.headerImg {
+    width: 8%;
+    height: auto;
+    border:1px solid rgb(9, 0, 0);  
+    background-color: bisque;  
+    border-radius:50%;
+    margin-bottom: 2%;
+}
+
+.jc {
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    margin-bottom: 3%;
+}
+
+.inputs {
+    line-height: 20px;
+    border-radius: 1rem;
+    padding-left: 1%;
+}
+
+.bConfirm {
+    margin-left: 37%;
+    border-radius: 1rem;
+    padding: 2px;
+    background-color: bisque;
+    font-size: medium;
+}
