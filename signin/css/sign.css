@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, main, html {
+    height: 100%;
+}
+
+body{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #23242a;
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;   
+    height: 420px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-image: conic-gradient(transparent, transparent, transparent,#45f3ff);
+    animation: rubix 6s linear infinite;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-image: conic-gradient(transparent, transparent, transparent, #f611db);
+    animation: rubix 6s linear infinite;
+    animation-delay: -3s;
+}
+   
+@keyframes rubix {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.form {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    inset: 3px;
+    z-index: 10;
+    border-radius: 8px;
+    background-color: #1c1c1c;
+}
+
+.pText {
+    color: #45f3ff;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+}
+
+.inputBox{
+    position: relative;
+    width: 300px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+::placeholder {
+    color:#45f3ff;
+}
+
+.typing {
+    height: 25px;
+    background-color: #1c1c1c;
+    padding-bottom: 5px;
+    border: none;
+    color: #45f3ff;
+    border-bottom: 2px solid #45f3ff;
+    outline: none;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.forgot {
+    position: relative;
+    left: -1px;
+    top: 25px;
+    padding-right: 55px;
+    font-size:  1.05em;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+
+.signUp {
+    position: relative;
+    top: 25px;
+    font-size: 1.05em;
+    color: #8f8f8f;
+    text-decoration: none;  
+}
+
+.lColor:hover {
+    color: #45f3ff;
+}
+
+.submit {
+    display: flex;
+    position: relative;
+    left: -92px;
+    margin-top: 40px;
+    background-color: #45f3ff;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 10px;
+}
