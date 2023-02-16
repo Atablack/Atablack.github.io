@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, main, html {
+    height: 100%;
+}
+
+.mainImg {
+    background-image: url(../img/bess.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blurContainer {
+    background: rgba(189, 189, 189, 0.4);
+    backdrop-filter: blur(25px);
+    border-radius: 1rem;
+    width: 80%;
+    height: 88%;
+}
+
+.lon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerText {
+    color: white;
+    margin: 30px 0 0 90px;
+    font-size: 25px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    list-style-type: none;
+    margin: 30px 70px 0 0;
+}
+
+.navBar {
+    float: left;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #333232;
+    padding: 0 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.navLink:hover {
+    color: white;
+    background-color:black;
+    border-radius: 1rem;
+}
+
+.active {
+    color: white;
+}
+
+.textContainer {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+} 
+
+.mainText {
+    color: white;
+    font-size: 55px;
+    margin-left: 80px;
+}
+
+.secondT {
+    margin-left: 80px;
+}
+
+.secondText {
+    color: #333232;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buy {
+    border: none;
+    border-radius: 1rem;
+    background-color: white;
+    color: #999999;
+    padding: 7px 16px;
+    margin: 45px 0 0 80px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.container-first{
+	background-image: url(../img/gg.jpg);
+	height: 103%;
+	background-position: top;
+	background-size: cover;
+
+}
+
+.text-container{
+	width: 40%;
+    margin-left: 15%;
+	padding-top: 15%;
+}
+
+.first-line{
+	text-transform: uppercase;
+	font-size: 36px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: rgba(0, 255, 153, 1);
+	line-height: 1
+}
+
+.second-line{
+	text-transform: uppercase;
+	font-size: 60px;
+	font-weight: bold;
+	color:rgba(0, 196, 207, 1);
+	line-height: 1;
+	letter-spacing: 5px;
+}
+
+.third-line{
+	color: rgba(153, 255, 0, 1);
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.container-second{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	background-color:#b6f0e1;
+}
+.gallery-container{
+	width: 60%;
+	max-width: 1000px;
+}
+
+.second-text{
+	width: 70%;
+	margin-left: 15%;
+}
+
+.header-text{
+	font-size: 48px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 1;
+}
+
+.main-text{
+	font-size: 18px;
+}
+
+.img-container{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+}
+
+img{
+	display: flex;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.3);
+}
+
+.wrapper{
+	margin-left: 20px;
+}
+
+.img21{
+    margin-top: 20px;
+	margin-left: 10%;
+	width: 50%;
+}
+
+.img22{
+    margin-top: 20px;
+	width: 70%;
+	margin-bottom: 20px;
+}
+
+.container-third{
+	height: 100%;
+	padding-top: 30px;
+	display: flex;
+	background-color: #f0f378;
+}
+
+.description{
+	width: 40%;
+	margin-left: 20px;
+	font-size: 26px;
+	font-weight: bold;
+
+}
+
+.img24{
+    margin-top: 11px;
+	width: 50%;
+}
+
+.container-fourth{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+    background-color: black;
+}
+
+.last-header{
+	color: white;
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+	padding: 10px 20px;
+	border: 2px solid white;
+	border-radius: 20rem;
+	margin-bottom: 40px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
+.social-icons>li {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+.social-icons a {
+  position: relative;
+  background-color: #b6f0e1;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: background-color .3s ease-in-out;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: .25rem;
+}
+.social-icons a:hover {
+  background-color: #e0e0e0;
+}
+.social-icons a::before {
+  content: "";
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  left: .65rem;
+  top: .65rem;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+.social-icons .social-icon-telegram::before {
+  background-image: url(../img/telegram.png);
+}
+.social-icons .social-icon-whatsapp::before {
+  background-image: url(../img/whatsapp.png);
+}
+.social-icons .social-icon-inst::before {
+  background-image: url(../img/instagram.png);
+}
