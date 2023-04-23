@@ -20,7 +20,7 @@ greenTimer.setAttribute('class', 'green_timer_img')
 
 resetTimer.innerHTML = 'reset the timer'
 removeTimer.innerHTML = 'remove the timer'
-sp.innerHTML = '8 00 00'
+sp.innerHTML = '24 00 00'
 
 removeTimer.append(redTimer)
 resetTimer.append(greenTimer)
