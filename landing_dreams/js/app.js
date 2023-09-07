@@ -75,5 +75,5 @@ btnStart.addEventListener('click', () => {
     sp.remove()
 })
 
-
+console.log('Сыймык гей');
 
