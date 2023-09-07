@@ -74,6 +74,3 @@ btnStart.addEventListener('click', () => {
     btnStart.remove()
     sp.remove()
 })
-
-console.log('Сыймык гей');
-
