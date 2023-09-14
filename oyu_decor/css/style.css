@@ -187,8 +187,8 @@ ul {
         width: 100%;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
-        background-image: url(/img/back.png);
-        background-position: -55px -32px;
+        background-image: url('../img/back.png');
+        background-position: -55px -36px;
         background-size: 273%;
     }
 }
