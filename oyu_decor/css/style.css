@@ -188,8 +188,28 @@ ul {
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
         background-image: url('../img/back.png');
-        background-position: -55px -36px;
-        background-size: 273%;
+        background-position: -35px -27px;
+        background-size: 170%;
+    }
+    @media (max-width: 550px) {
+        background-image: url('../img/back.png');
+        background-position: -39px -37px;
+        background-size: 190%;
+    }
+    @media (max-width: 500px) {
+        background-image: url('../img/back.png');
+        background-position: -42px -40px;
+        background-size: 210%;
+    }
+    @media (max-width: 450px) {
+        background-image: url('../img/back.png');
+        background-position: -45px -28px;
+        background-size: 225%;
+    }
+    @media (max-width: 400px) {
+        background-image: url('../img/back.png');
+        background-position: -48px -20px;
+        background-size: 250%;
     }
 }
 
