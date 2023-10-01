@@ -493,7 +493,7 @@ ul {
     color: #032539;
 
     @media (max-width: 600px) {
-        font-size: 12px;
+        font-size: 12.45px;
     }
 }
 
@@ -520,7 +520,7 @@ ul {
     color: #03253980;
 
     @media (max-width: 600px) {
-        font-size: 12.45px;
+        font-size: 12px;
         margin-bottom: 3px;
     }
 }
