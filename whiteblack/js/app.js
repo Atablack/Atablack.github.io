@@ -1,4 +1,4 @@
-alert('luv u')
+alert('luv u!!!!!!!!!!!!!!!!!!!!!!')
 let bt = document.querySelector('.cl')
 let hide = document.querySelector('.button')
 let swiperShow = document.querySelector('.ko')
